@@ -1,4 +1,4 @@
-# A Custom Rate Limiter
+# Custom Rate Limiter
 A custom rate-limiting technique built using Node.js without third-party libraries.
 Every time a request is made, it stores the current timestamp and checks how many requests were made within the last fixed time window (for example, 1 minute). If the count exceeds the allowed limit, the request is blocked.
 
