@@ -10,7 +10,7 @@ It’s essential to prevent abuse, protect server load, and ensure fair usage.
 - Node JS
 - Express JS
 
-## ***Note ***
+## Note :
 This implementation is for learning purposes only, intended to understand the basic mechanism behind rate limiting.
 It is not scalable and not suitable for real-world production use, as it does not scale well.
 Additionally, memory usage can grow indefinitely if stored timestamps are not properly cleaned up.
