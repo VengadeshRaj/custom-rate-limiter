@@ -23,11 +23,11 @@ Additionally, memory usage can grow indefinitely if stored timestamps are not pr
 - Run `npm i` to install all the dependencies.
 - Run `npm run dev` to run the service locally.
 
-### Example:
+## Example:
 You can able to hit the endpoint 5 times in a 1 minute window.
 
-If you are within the limit:
+### If you are within the limit:
 ![within_limit](./images/within_limit.png)
 
-If you exceed the limit
+### If you exceed the limit:
 ![exceed_limit](./images/exceed_limit.png)
