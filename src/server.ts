@@ -9,4 +9,8 @@ app.use(rateLimiter);
 
 app.get('/',(_,res)=>{
     res.send("You are with in limit...")
-})
+});
+
+app.listen(PORT, () => {
+  console.log("Server is up and running...");
+});
