@@ -17,16 +17,16 @@ Additionally, memory usage can grow indefinitely if stored timestamps are not pr
 
 ## Steps to run the service:
 
-Make sure Node JS installed in your system.
-Clone the repo using `git clone https://github.com/VengadeshRaj/custom-rate-limiter.git`.
-Go inside the root folder.
-Run `npm i` to install all the dependencies.
-Run `npm run dev` to run the service locally.
+- Make sure Node JS installed in your system.
+- Clone the repo using `git clone https://github.com/VengadeshRaj/custom-rate-limiter.git`.
+- Go inside the root folder.
+- Run `npm i` to install all the dependencies.
+- Run `npm run dev` to run the service locally.
 
-### example:
+### Example:
 You can able to hit the endpoint 5 times in a 1 minute window.
 
-If you are within the limit
+If you are within the limit:
 ![within_limit](./images/within_limit.png)
 
 If you exceed the limit
